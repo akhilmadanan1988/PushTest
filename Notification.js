@@ -69,7 +69,7 @@
                     
              case 'message':
                     
-                    alert(e.payload.alert);
+                    alert(e.payload.message);
                     if ( e.foreground )
                         {
                             
@@ -119,8 +119,8 @@
         // here is where you might want to send it the token for later use.
         alert('device token = ' + result);
             
-//            var reqData ={"AppType":"1","DeviceId":""+result+"","IPAddress":"","UserId":"0"};
-//            ajaxcall("UpdateUserDetailsAndFetchDefaultCountry",reqData,IsDeviceRegResponseSuccess,errorfunction);
+            var reqData ={"AppType":"1","DeviceId":""+result+"","IPAddress":"","UserId":"0"};
+            ajaxcall("UpdateUserDetailsAndFetchDefaultCountry",reqData,IsDeviceRegResponseSuccess,errorfunction);
 //            
         }
     function onNotificationAPN (event)
