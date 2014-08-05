@@ -69,7 +69,7 @@
                     
              case 'message':
                     
-                    alert(e.payload.message);
+                    alert(e.payload.alert);
                     if ( e.foreground )
                         {
                             
