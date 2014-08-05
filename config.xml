@@ -15,11 +15,13 @@
         <preference name="deployment-target" value="6.1" />
         
         
+<!--
         <preference name="AutoHideSplashScreen" value="false" />
         <preference name="SplashScreenDelay" value="10000"/> 
         <gap:plugin name="org.apache.cordova.splashscreen" />
        <gap:plugin name="org.li8.inappbrowser" version="0.1" />
        
+-->
         <gap:plugin name="org.apache.cordova.device" version="0.2.8" />
         <gap:plugin name="org.apache.cordova.network-information" version="0.2.7" />
         <gap:plugin name="org.apache.cordova.dialogs" version="0.2.6" />
