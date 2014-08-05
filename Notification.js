@@ -56,6 +56,8 @@
     function onNotificationGCM(e) {
         $("#app-status-ul").append('<li>EVENT -> RECEIVED:' + e.event + '</li>');
 
+        alert( e.regid);
+        
         switch( e.event )
         {
         case 'registered':
