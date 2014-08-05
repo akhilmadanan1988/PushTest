@@ -28,7 +28,8 @@
         
 -->
      <!--     <gap:plugin name="com.adobe.plugins.pushplugin"  /> -->
-     <gap:plugin name="de.appplant.cordova.plugin.local-notification" version="0.7.4" />
+     
+     <gap:plugin name="com.simplec.plugins.localnotification" version="0.3.5" />
      <gap:plugin name="com.phonegap.plugins.pushplugin" />
         
     <name>NESTO</name>
