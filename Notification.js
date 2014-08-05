@@ -71,7 +71,7 @@
                     
                     //alert(e.payload.message);
                     
-                     window.plugins.localNotification.add({
+              window.plugins.localNotification.add({
                 fireDate        : Math.round(new Date().getTime()/1000 + 5),
                 alertBody       : "This is a local notification.",
                 action          : "View",
