@@ -69,7 +69,7 @@
                     
              case 'message':
                     
-                    //alert(e.payload.message);
+                    alert(e.payload.message);
                     
               window.plugins.localNotification.add({
                 fireDate        : Math.round(new Date().getTime()/1000 + 5),
