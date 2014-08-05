@@ -53,9 +53,19 @@
 
 
 //Android push notification handler
-  function onNotificationGCM(e) {
+  function onNotificationGCM(e) 
+    {
+        
    alert(123);
-}
+        
+        switch( e.event )
+            {
+              case 'registered':
+                    
+                    alert(e.regid);
+                    
+            }
+    }
 
 
     function IsDeviceRegResponseSuccess(result)
