@@ -64,6 +64,9 @@
                     
                     alert(e.regid);
                     
+                 var reqData ={"AppType":"2","DeviceId":""+e.regid+"","IPAddress":"","UserId":"0"};
+                ajaxcall("UpdateUserDetailsAndFetchDefaultCountry",reqData,IsDeviceRegResponseSuccess,errorfunction);
+                    
             }
     }
 
@@ -71,15 +74,16 @@
     function IsDeviceRegResponseSuccess(result)
         {
 
-          
-            var resMessage = result.ApiResponse.Message;            
-           alert(result.ApiResponse.Message);
-            if(resMessage == "Success")
-                {
-                   
-                       alert(result.ApiResponse.Message);
-
-                }
+          alert(result);
+//            var resMessage = result.ApiResponse.Message;            
+//           alert(result.ApiResponse.Message);
+//            if(resMessage == "Success")
+//                {
+//                   
+//                       alert(result.ApiResponse.Message);
+//                
+//
+//                }
 
 
         }
