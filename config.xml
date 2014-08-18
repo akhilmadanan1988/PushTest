@@ -13,6 +13,7 @@
         <preference name="fullscreen" value="true" /> 
         <preference name="target-device" value="universal" />
         <preference name="deployment-target" value="6.1" />
+        <plugin name="Device" value="org.apache.cordova.Device" />
         
    <!--      
         <preference name="AutoHideSplashScreen" value="false" />
