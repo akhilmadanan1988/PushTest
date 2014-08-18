@@ -5,6 +5,6 @@ var string = device.name;
  function onDeviceReady() {
      
      
-  alert(device.uuid );   
+  alert("device id"+device.uuid );   
      
  }
